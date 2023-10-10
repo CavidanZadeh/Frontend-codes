@@ -1,0 +1,30 @@
+img{
+    width: 300px;
+    height: 180px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.box{
+    width: 300px;
+    height: 500px;
+    box-shadow: 10px 11px 74px 31px rgba(0,0,0,0.35);
+    border: 5px solid rgb(255, 225, 0);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+p{
+    font-size: 10;
+    color: rgb(74, 8, 196);
+    width: 5;
+    height: 10;
+    word-spacing: 10px;
+
+}
+.alo{
+   border: 2px solid red;
+   width: 80px;
+   background-color: rgb(227, 228, 170);
+}

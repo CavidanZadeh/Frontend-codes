@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.course{
+display: flex;
+justify-content: space-around;
+
+}
+.form{
+    margin: 50px 50px ;
+    border: 0.2px solid rgb(199, 197, 197);
+    padding: 20px;
+    
+
+}
+form{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: -30px;
+    gap: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+   
+
+}
+.form input{
+    width: 38%;
+}
+.register{
+    margin: 90px 50px ;
+}
+button{
+    margin-top: 80px;
+}
+.name{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   padding-bottom: 5px;
+}
+.email{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+
+}
+.phone{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+}
+.site{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+
+}
+.a1{
+  display: flex;
+  gap: 80px;
+
+}
+.a2{
+    display: flex;
+    gap: 80px;
+
+  
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+   width: 550px;
+   align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: -440px;
+  align-content: center;
+  margin-left: 25px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  border: none;
+  font-weight: bold;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.numbers{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 50px;
+
+}
+/* .time{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    font-size: 20px;
+    opacity: 0.5;
+} */
+.times{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+    list-style : none;
+}

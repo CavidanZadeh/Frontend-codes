@@ -1,0 +1,14 @@
+.box2{
+    width: 300px;
+    height: 300px;
+
+background-color: rgba(7, 195, 7, 0.878);
+border: 15px dotted rgb(219, 3, 239);
+outline: 15px dashed rgb(219, 3, 239);
+outline-offset: 30px;
+border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}

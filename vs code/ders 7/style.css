@@ -1,0 +1,21 @@
+.box{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 11px 74px 31px rgba(19,0,157,0.35);
+    border: 5px solid rgb(4, 4, 77);
+    background: linear-gradient(180deg, rgba(0,255,38,1) 14%, rgba(255,255,255,1) 48%, rgba(255,0,44,1) 95%, rgba(255,0,44,1) 97%, rgba(255,0,0,1) 100%);
+    border-bottom-left-radius:15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 10px;
+    outline: 5px solid blue;
+    outline-offset: 20px;
+
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    text-decoration: dotted rgb(0, 0, 0) line-through;
+    font-size: 30px;
+    letter-spacing: 10px;
+}

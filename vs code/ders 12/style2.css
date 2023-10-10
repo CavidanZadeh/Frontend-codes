@@ -1,0 +1,51 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+    list-style : none;
+}
+
+.navbar{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo{
+    letter-spacing: 5px;
+    color: rgb(57, 57, 235);
+    font-size: 50px;
+    padding: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 22px;
+    gap: 20px;
+    text-transform: capitalize;
+}
+.box{
+    position: fixed;
+    font-size: 50px;
+    background-color: lightblue;
+    border: gray;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 999;
+    right: 1%;
+    bottom: 1%;
+    cursor: pointer;
+    box-shadow: -1px 4px 71px 10px rgba(33,211,206,0.57);
+
+
+}

@@ -1,0 +1,44 @@
+h1 {
+    color: blue;
+    text-decoration: solid line-through red;
+    text-shadow: 2px 2px 4px #000
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    box-shadow: -4px 44px 99px 40px rgba(27, 208, 74, 1);
+
+    background: radial-gradient(circle, rgba(9, 255, 0, 1) 0%, rgba(0, 35, 255, 1) 100%);
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: blue;
+}
+
+span {
+    font-size: 30px;
+}
+
+.la {
+    letter-spacing: 1px;
+    color: blueviolet;
+
+}
+
+.boxtwo {
+    width: 100px;
+    height: 60px;
+    box-shadow: -4px 44px 99px 40px rgba(27, 208, 74, 1);
+
+
+
+
+}
+
+img {
+    width: 100px;
+    height: 60px;
+}

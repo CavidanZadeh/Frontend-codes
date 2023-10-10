@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(93deg, rgba(16, 106, 179, 1) 0%, rgba(147, 11, 171, 1) 100%);
+}
+
+form {
+    padding: 40px 50px;
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.413);
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1.5px solid purple;
+}
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1.5px solid purple;
+}
+
+button {
+    border: 1.5px solid purple;
+    background-color: palevioletred;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
