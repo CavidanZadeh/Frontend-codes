@@ -22,6 +22,8 @@ list-style : none;
     height: 250px;
     padding: 40px;
     background-color: rgba(65, 37, 83, 0.667);
+    transition: 0.5s ease all;
+
 }
 .icon{
     text-align: center;
@@ -36,4 +38,7 @@ p{
 }
 .box:hover .icon{
     transform: translateY(-10px) scale(1.1);
+}
+.box:hover{
+     background-color: rgba(65, 37, 83, 0.401);
 }

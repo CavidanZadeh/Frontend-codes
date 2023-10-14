@@ -29,6 +29,7 @@
 #watch {
     background-color: rgb(229, 227, 227);
     /* position: relative; */
+    overflow: hidden;
 
 }
 .container{
@@ -69,4 +70,16 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+img{
+    animation: image 2s ease infinite alternate;
+}
+@keyframes image{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
