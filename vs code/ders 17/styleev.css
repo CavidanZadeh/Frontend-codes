@@ -1,0 +1,116 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+    list-style : none;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.navbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    align-content: center;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 22px;
+}
+.navbar_button {
+    background-color: rgb(244, 244, 14);
+    border: none;
+    padding: 15px 30px;
+}
+.middle{
+    text-align: center;
+    margin-top: 60px;
+}
+.h2_first{
+font-size: 60px;
+color: #00095E;
+}
+.h2_second{
+    font-size: 55px;
+    color: #00095E;
+    text-decoration: underline 7px solid yellow ;
+}
+.p_third{
+    margin-top: 20px;
+    color: #00095E;
+
+    font-size: 20px;
+}
+.button_p{
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    z-index: 5;
+}
+.middle_button {
+    background-color: #00095e;
+    color: white;
+    font-weight: bold;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+ padding: 30px;
+ margin-top: 30px;
+ position: relative;
+ overflow: hidden;
+ border: none;
+
+ 
+}
+.yellow{
+    background-color: yellow;
+    height: 80px;
+    width: 250px;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+  left: 0px;
+    top: -100px;
+
+    z-index: 2;
+    transition: 0.5s ease all;
+}
+.middle_button:hover .yellow {
+
+    top: 0%;
+    background-color: rgba(255, 255, 0, 0.948);
+    height: 80px;
+    width: 250px;
+    position: absolute;
+}
+.car{
+    background: url(	https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png);
+}
+.car_img2 img{
+    position: absolute;
+    top: 100%;
+    animation: car 6s linear infinite alternate;
+    object-fit: cover;
+}
+@keyframes car{
+    from{
+        left: 25%;
+    }
+    to{
+        left: 10%;
+    }
+}
+.car_img img{
+    position: relative;
+}
