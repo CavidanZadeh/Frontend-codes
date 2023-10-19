@@ -1,0 +1,102 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+    list-style : none;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 150px;
+  
+}
+
+.navbar_right .fa-bars {
+    font-size: 20px;
+    color: white;
+   
+}
+.navbar_right .fa-bars:hover{
+    transform: scale(1.1)
+}
+
+section{
+    background-image: url(https://preview.colorlib.com/theme/heaven/img/banner_bg_1.png);;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.navbar_left .fa-magnifying-glass{
+    font-size: 20px;
+    color: white;
+}
+.p_first{
+    color: #ff7e00;
+    font-size: 25px;
+    
+}
+.p_second{
+    color: white;
+   font-weight: bold;
+   font-size: 40px;
+   margin-top: 30px;
+   width: 50% !important;
+}
+.p_third{
+    color: white;
+    font-size: 20px; 
+    margin-top: 30px;
+}
+.p_fourth{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.main{
+    width: 85%;
+    margin: 0 auto;
+}
+.main_text{
+    width: 50%;
+    margin: 160px;
+}
+.last{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.main_button .fa-right-long{
+    color: white;
+    font-size: 30px;
+   
+    
+}
+.main_button{
+   
+    width: 100px;
+    height: 50px;
+    background-color: #ff7e00;
+    border: none;
+}
+.white{
+    width: 300px;
+    height: 700px;
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+}
+.fa-bars:hover .white{
+    opacity: 1;
+}
+li{
+    font-size: 30px;
+}
+
+#check:checked+.white{
+    opacity: 1;
+}
