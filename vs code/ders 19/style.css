@@ -51,7 +51,7 @@ img{
     margin-right: 50px;
 }
 
-.image:hover::after{
+.image::after{
     content: '';
     position: absolute;
     top: 0;

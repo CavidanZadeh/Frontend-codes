@@ -85,7 +85,7 @@ color: #00095E;
 
  
 }
-.yellow{
+.yellowone{
     background-color: yellow;
     height: 80px;
     width: 250px;
@@ -99,7 +99,7 @@ color: #00095E;
     z-index: 2;
     transition: 0.5s ease all;
 }
-.middle_button:hover .yellow {
+.middle_button:hover .yellowone {
 
     top: 0%;
     background-color: rgba(255, 255, 0, 0.948);
@@ -112,7 +112,7 @@ color: #00095E;
 }
 .car_img2 img{
     position: absolute;
-    top: 100%;
+    top: 90%;
     animation: car 6s linear infinite alternate;
     object-fit: cover;
 }
